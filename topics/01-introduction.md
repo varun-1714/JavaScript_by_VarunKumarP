@@ -52,5 +52,23 @@ JavaScript has grown into a powerful, full-featured language with many enhanceme
 
 ---
 
+## How many ways to apply Script to HTML Document
+- Inline Scripting   ----> Within the tag 
+- Internal Scripting ----> script tag   <script></script>
+- External Scripting ---->  <script src = "fileName.js"></script>
+
+### Difference between the Internal and External Scripting
+
+|  | Internal | External |
+|-----|-------|------|
+| Loading Time | Fast within the (html page) | Slower (loaded from server Whenever requested) |
+| When to use ? | no.of lines is less | for large amount of code |
+| Re-usable | No, We cannot use JS code with any other HTML file | Yes, Multiple JS code can use it |
+| Maintainability | Difficult, for every change request each html page contain JS code has to maintained seperatly | Easy, only file need to be modified |
+
+
+
+
+
 JavaScript is no longer just a scripting language for the browser — it is a **versatile, full-stack development tool** that powers a large portion of the modern web.
 
